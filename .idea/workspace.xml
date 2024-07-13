@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+feature/creating-api-gateway
+    <list default="true" id="0d3dd968-586f-4de8-94df-65e1204c9b94" name="Changes" comment="Initial commit with all three services and server">
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/ganesh/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+
     <list default="true" id="0d3dd968-586f-4de8-94df-65e1204c9b94" name="Changes" comment="Initial commit with all three services and server" />
+main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +35,11 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+ feature/creating-api-gateway
+        <entry key="$PROJECT_DIR$" value="main" />
+
         <entry key="$PROJECT_DIR$" value="master" />
+main
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,12 +81,23 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+ feature/creating-api-gateway
+    "Spring Boot.ApiGatewayApplication (1).executor": "Run",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+
+main
     "Spring Boot.DiscoveryServerApplication.executor": "Run",
     "Spring Boot.InventoryServiceApplication.executor": "Run",
     "Spring Boot.OrderServiceApplication.executor": "Run",
     "Spring Boot.ProductServiceApplication.executor": "Run",
+feature/creating-api-gateway
+    "git-widget-placeholder": "feature/creating-api-gateway",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Microservices/e-commerce-microservices-project/discovery-server/src/main/java/com/ganesh/discoveryserver",
+
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+ main
     "last_opened_file_path": "C:/Microservices/e-commerce-microservices-project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -79,6 +108,10 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.configurations.included.in.services": "true",
+ feature/creating-api-gateway
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+
+main
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -105,7 +138,24 @@
       </set>
     </option>
   </component>
+feature/creating-api-gateway
+  <component name="RunManager" selected="Spring Boot.DiscoveryServerApplication">
+    <configuration name="ApiGatewayApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ganesh.apigateway.ApiGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ganesh.apigateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+
   <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
+ main
     <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="discovery-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ganesh.discoveryserver.DiscoveryServerApplication" />
@@ -160,11 +210,19 @@
     </configuration>
     <recent_temporary>
       <list>
+ feature/creating-api-gateway
+        <item itemvalue="Spring Boot.DiscoveryServerApplication" />
+        <item itemvalue="Spring Boot.ApiGatewayApplication (1)" />
+        <item itemvalue="Spring Boot.InventoryServiceApplication" />
+        <item itemvalue="Spring Boot.ProductServiceApplication" />
+        <item itemvalue="Spring Boot.OrderServiceApplication" />
+
         <item itemvalue="Spring Boot.ProductServiceApplication" />
         <item itemvalue="Spring Boot.OrderServiceApplication" />
         <item itemvalue="Spring Boot.InventoryServiceApplication" />
         <item itemvalue="Spring Boot.DiscoveryServerApplication" />
         <item itemvalue="Spring Boot.ProductServiceApplication" />
+ main
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +252,27 @@
       <option name="project" value="LOCAL" />
       <updated>1720880582403</updated>
     </task>
+ feature/creating-api-gateway
+    <task id="LOCAL-00002" summary="Initial commit with all three services and server">
+      <option name="closed" value="true" />
+      <created>1720881163151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720881163151</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit with all three services and server">
+      <option name="closed" value="true" />
+      <created>1720881249432</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720881249432</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+
     <option name="localTasksCounter" value="2" />
+ main
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -19,6 +19,10 @@
         <module>order-service</module>
         <module>inventory-service</module>
         <module>discovery-server</module>
+feature/creating-api-gateway
+        <module>api-gateway</module>
+=======
+ main
     </modules>
 
     <properties>
